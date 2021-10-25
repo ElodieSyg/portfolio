@@ -1,0 +1,16 @@
+.navbar-text {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+.p1 {
+    padding-top: 1rem;
+    padding-bottom  : 1rem;
+}
+
+.color-transition {
+    -webkit-transition: color 2s ease-out;}
+
+.color-transition:hover {
+    color: #377377;
+  }

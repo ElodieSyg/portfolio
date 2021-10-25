@@ -1,12 +1,11 @@
-// Import component
-import Navbar from "../component/Navbar";
-
 const Home = () => {
     return (
-        <>
-            <Navbar />
-            Home
-        </>
+        <div className="container-1">
+            <div className="flex-col align-center">
+                <h1>ELODIE SAYAVONG</h1>
+                <p>developpeuse full stack</p>
+            </div>
+        </div>
     );
 };
 
