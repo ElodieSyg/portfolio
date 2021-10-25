@@ -1,5 +1,6 @@
-import { BrowserRouter, Switch, Route } from "react-router-dom";
-// Import CSS
+import { BrowserRouter, Switch, Route, useLocation } from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
+// Import CSS  k
 import "./App.css"
 // Import views
 import Home from "./view/Home";
@@ -14,12 +15,14 @@ const App = () => {
   return (
     <BrowserRouter>
       <Navbar />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/about-me" component={AboutMe} />
-        <Route exact path="/project" component={Project} />
-        <Route exact path="/contact" component={Contact} />
-      </Switch>
+      <AnimatePresence exitBeforeEnter>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about-me" component={AboutMe} />
+          <Route exact path="/project" component={Project} />
+          <Route exact path="/contact" component={Contact} />
+        </Switch>
+      </AnimatePresence>
       <Footer />
     </BrowserRouter>
   );

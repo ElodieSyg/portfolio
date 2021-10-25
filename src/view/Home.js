@@ -1,6 +1,17 @@
+import { motion } from "framer-motion";
+
+import pageTransition from "../utils/pageTransition";
+import timeTransition from "../utils/timeTransition";
+
 const Home = () => {
     return (
-        <div className="container-1">
+        <motion.div
+            initial="out"
+            exit="out"
+            animate="in"
+            variants={pageTransition}
+            transition={timeTransition}
+            className="container-1">
             <div className="flex-col align-center">
                 <h1>
                     <span className="color-transition">E </span>
@@ -22,7 +33,7 @@ const Home = () => {
                 </h1>
                 <p className="color-transition">full stack developper</p>
             </div>
-        </div>
+        </motion.div>
     );
 };
 
