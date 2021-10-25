@@ -3,3 +3,16 @@
   margin: 0;
   box-sizing: 0;
 }
+
+/** Containers **/
+
+.container {
+  margin: 1rem;
+}
+
+/** Flexbox **/
+
+.jc_flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
