@@ -10,8 +10,10 @@ const AboutMe = () => {
             exit="out"
             animate="in"
             variants={pageTransition}
-            transition={timeTransition}>
-            About me
+            transition={timeTransition}
+            className="container-1">
+
+            <p className="raleway-dots w">Bonjour !</p>
         </motion.div>
     );
 };

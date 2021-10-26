@@ -1,6 +1,6 @@
-import { BrowserRouter, Switch, Route, useLocation } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
-// Import CSS  k
+// Import CSS 
 import "./App.css"
 // Import views
 import Home from "./view/Home";

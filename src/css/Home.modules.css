@@ -1,0 +1,45 @@
+.container-home {
+    position: absolute;
+    bottom: 22rem;
+    right: 3rem;
+}
+
+@media (min-width: 375px) {
+    .container-home {
+        right: 4rem;
+    }
+}
+
+@media (min-width: 425px) {
+    .container-home {
+        right: 6rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .container-home {
+        right: 17rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container-home {
+        bottom: 30rem;
+        right: 24rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container-home {
+        bottom: 41rem;
+        right: 37rem;
+    }
+}
+
+
+@media (min-width: 2446px) {
+    .container-home {
+        bottom: 75rem;
+        right: 70rem;
+    }
+}

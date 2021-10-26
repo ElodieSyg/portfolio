@@ -7,3 +7,10 @@
     padding-top: 1rem;
     padding-bottom  : 1rem;
 }
+
+.position {
+    position: absolute;
+    right: 0rem;
+    top: 5rem;
+}
+

@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 
+import "../css/Home.modules.css";
+
 import pageTransition from "../utils/pageTransition";
 import timeTransition from "../utils/timeTransition";
 
@@ -11,7 +13,7 @@ const Home = () => {
             animate="in"
             variants={pageTransition}
             transition={timeTransition}
-            className="container-1">
+            className="container-home">
             <div className="flex-col align-center">
                 <h1>
                     <span className="color-transition">E </span>
