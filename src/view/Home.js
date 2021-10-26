@@ -33,7 +33,7 @@ const Home = () => {
                     <span className="color-transition">N </span>
                     <span className="color-transition">G </span>
                 </h1>
-                <p className="color-transition">full stack developper</p>
+                <p className="color-transition mt-1">full stack developper</p>
             </div>
         </motion.div>
     );

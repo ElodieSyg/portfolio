@@ -1,16 +1,16 @@
+.container-navbar {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .navbar-text {
     writing-mode: vertical-lr;
     text-orientation: sideways-right
 }
 
 .p1 {
-    padding-top: 1rem;
-    padding-bottom  : 1rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
 }
-
-.position {
-    position: absolute;
-    right: 0rem;
-    top: 5rem;
-}
-

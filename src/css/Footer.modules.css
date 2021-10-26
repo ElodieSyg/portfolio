@@ -1,6 +1,5 @@
-.container-home {
+.container-footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
 }

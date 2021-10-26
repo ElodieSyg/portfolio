@@ -14,13 +14,6 @@ body {
   padding: 0;
 }
 
-#root {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 /** Font **/
 
 .raleway-dots {
@@ -29,6 +22,12 @@ body {
 
 .raleway-dots:hover {
   color: black;
+}
+
+/** Font-size **/
+
+.font {
+  font-size: 5rem;
 }
 
 /** Containers **/
@@ -64,7 +63,7 @@ body {
   justify-content: center;
 }
 
-/** Text decation **/
+/** Text decoration **/
 
 .text-none {
   text-decoration: none;
@@ -79,8 +78,8 @@ body {
   color: #377377;
 }
 
-/** Float **/
+/** Margin **/
 
-.w {
-  font-size: 4rem;
+.mt-1 {
+  margin-top: 1rem;
 }

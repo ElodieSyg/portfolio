@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import pageTransition from "../utils/pageTransition";
 import timeTransition from "../utils/timeTransition";
 
+import "../css/About-me.modules.css";
+
 const AboutMe = () => {
     return (
         <motion.div
@@ -11,9 +13,12 @@ const AboutMe = () => {
             animate="in"
             variants={pageTransition}
             transition={timeTransition}
-            className="container-1">
+            className="container-about-me">
+            <div className="raleway-dots font">
+                My name is Elodie Sayavong and consider myself like a geek with a good relational.
+                I appreciate make websites and mobile applications because it use my technical, creativity and challenges.
 
-            <p className="raleway-dots w">Bonjour !</p>
+            </div>
         </motion.div>
     );
 };
